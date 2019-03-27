@@ -17,9 +17,13 @@ There are some parameters that need to be specified by the user.
 2) ** error_bound ** error bound for a specifical benchmark
 
 Example for the 'fiexed topology selection' method:
+    
     python fixed_topology_selection.py --benchmark fft --error_bound 0.001
+
 For the SMAC method, you can set the Alpha Beta Gamma parameters in the `train-scenario.txt` to guide the SMAC search results towards the accuracy or energy-efficient. you also need to specify the benchmark name and error bound in the `train-scenario.txt`.Run the SMAC method :
+
        bash run_SMAC.sh
+
 
 
 # License
